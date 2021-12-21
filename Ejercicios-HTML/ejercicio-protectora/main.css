@@ -1,0 +1,13 @@
+@keyframes testing {
+    0% {background-color: red;}
+    10% {background-color: blue;}
+    20% {background-color: bisque;}
+    35% {background-color: cadetblue;}
+    75% {background-color: chocolate;}
+    100% {background-color: darkgoldenrod;}
+}
+
+ul {
+    animation-name: testing;
+    animation-duration:35s;
+}
